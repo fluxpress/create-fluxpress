@@ -1,11 +1,34 @@
 {
   "name": "create-fluxpress",
-  "version": "0.1.0-alpha",
+  "version": "0.1.1-alpha",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "create-fluxpress": "bin/index.js"
   },
+  "type": "module",
+  "scripts": {},
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fluxpress/create-fluxpress.git"
+  },
+  "keywords": [
+    "fluxpress"
+  ],
   "author": "liangpengyv",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fluxpress/create-fluxpress/issues"
+  },
+  "homepage": "https://github.com/fluxpress/create-fluxpress#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.9.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3"
+  }
 }
