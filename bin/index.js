@@ -6,4 +6,4 @@ const pkg = JSON.parse(
   readFileSync(new URL('../package.json', import.meta.url)),
 )
 
-console.log(`Current FluxPress version: ${pkg.version}`)
+console.log(`create-fluxpress version: ${pkg.version}`)

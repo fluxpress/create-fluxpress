@@ -1,6 +1,6 @@
 {
   "name": "create-fluxpress",
-  "version": "0.1.1-alpha",
+  "version": "0.1.2-alpha",
   "description": "",
   "bin": {
     "create-fluxpress": "bin/index.js"
@@ -15,7 +15,8 @@
     "url": "git+https://github.com/fluxpress/create-fluxpress.git"
   },
   "keywords": [
-    "fluxpress"
+    "fluxpress",
+    "create-fluxpress"
   ],
   "author": "liangpengyv",
   "license": "MIT",
