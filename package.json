@@ -3,10 +3,13 @@
   "version": "0.1.2-alpha",
   "description": "",
   "bin": {
-    "create-fluxpress": "bin/index.js"
+    "create-fluxpress": "bin/create-fluxpress.js"
   },
   "type": "module",
-  "scripts": {},
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js"
+  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -24,12 +27,26 @@
     "url": "https://github.com/fluxpress/create-fluxpress/issues"
   },
   "homepage": "https://github.com/fluxpress/create-fluxpress#readme",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0"
+  },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@types/eslint__js": "^8.42.3",
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.5.4",
+    "concurrently": "^9.0.1",
     "eslint": "^9.9.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-prettier": "^5.2.1",
     "globals": "^15.9.0",
-    "prettier": "^3.3.3"
+    "prettier": "^3.3.3",
+    "rollup": "^4.21.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
   }
 }
