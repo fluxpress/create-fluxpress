@@ -1,0 +1,7 @@
+### FluxPress ###
+.env
+data/
+public/
+
+# Dependency directories
+node_modules/

@@ -1,0 +1,14 @@
+{
+  "name": "<%= package.name %>",
+  "type": "module",
+  "scripts": {
+    "fetch": "fluxpress fetch",
+    "generate": "fluxpress generate",
+    "preview": "fluxpress preview"
+  },
+  "devDependencies": {
+    "@fluxpress/cli": "^<%= package.cliVersion %>",
+    "@fluxpress/core": "^<%= package.coreVersion %>",
+    "<%= package.themeName %>": "^<%= package.themeVersion %>"
+  }
+}
