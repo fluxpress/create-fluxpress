@@ -45,9 +45,11 @@
     "typescript-eslint": "^8.5.0"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   },
   "files": [
+    "bin/",
     "dist/"
   ],
   "repository": {
