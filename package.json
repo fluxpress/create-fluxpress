@@ -14,7 +14,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "@fluxpress/core": "^0.1.6-alpha",
+    "@fluxpress/core": "^0.1.7-alpha",
     "commander": "^12.1.0",
     "ejs": "^3.1.10",
     "fs-extra": "^11.2.0",
