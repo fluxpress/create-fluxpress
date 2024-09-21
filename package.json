@@ -1,6 +1,6 @@
 {
   "name": "create-fluxpress",
-  "version": "0.1.5-alpha",
+  "version": "0.1.6-alpha",
   "engines": {
     "node": ">=20.9.0"
   },
