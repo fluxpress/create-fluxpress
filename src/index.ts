@@ -20,8 +20,6 @@ const ANSWERS_TYPES = [
 interface RenderData {
   package: {
     name: string
-    cliVersion: string
-    coreVersion: string
     themeName: string
     themeVersion: string
   }
@@ -98,8 +96,6 @@ async function handleAnswer(
   const renderData: RenderData = {
     package: {
       name: answers.projectName,
-      cliVersion: await getPackageLatestVersion('@fluxpress/cli'),
-      coreVersion: await getPackageLatestVersion('@fluxpress/core'),
       themeName: answers.isOfficialTheme
         ? `@fluxpress/theme-${answers.themeName}`
         : `fluxpress-theme-${answers.themeName}`,
